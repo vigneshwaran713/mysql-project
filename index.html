@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scholarship Eligibility Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Scholarship Eligibility Checker</h1>
+
+        <form id="scholarshipForm">
+            <input type="text" id="name" placeholder="Enter Name" required>
+            <input type="number" id="marks" placeholder="Enter Percentage" required>
+
+            <select id="category">
+                <option value="General">General</option>
+                <option value="OBC">OBC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+            </select>
+
+            <input type="number" id="income" placeholder="Family Income" required>
+
+            <select id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <button type="submit">Check Eligibility</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
