@@ -18,6 +18,7 @@ A simple web application that checks whether a student is eligible for a scholar
 ## 📂 Project Structure
 Scholarship-Eligibility-Checker/
 │
+
 ├── index.html
 ├── style.css
 ├── script.js
